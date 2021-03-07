@@ -37,7 +37,7 @@ export default function Dashboard({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.titleText}>Dashboard</Text>
+      <Text style={styles.titleText}>Bodda Bing</Text>
       <Text style={styles.text}>Hi {firstName}</Text>
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.buttonText}>Log Out</Text>
