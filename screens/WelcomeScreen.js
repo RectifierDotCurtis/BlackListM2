@@ -11,7 +11,7 @@ export default function WelcomeScreen ({navigation}) {
         <Text style={styles.title}>Welcome to Rectifier</Text>
       </View>
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Sign Up')} >
-        <Text style={styles.buttonText}>Sign Up</Text>
+        <Text style={styles.buttonText}>Sign Upper</Text>
        </TouchableOpacity>
       <Text style={styles.inlineText}>Already have an account?</Text>
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Sign In')}>
