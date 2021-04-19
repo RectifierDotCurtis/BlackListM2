@@ -8,7 +8,7 @@ export default function WelcomeScreen ({navigation}) {
       style={styles.background}
       source={require('../assets/background.jpg')}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Welcome to Firebase/Firestore Example</Text>
+        <Text style={styles.title}>Welcome to Rectifier</Text>
       </View>
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Sign Up')} >
         <Text style={styles.buttonText}>Sign Up</Text>
