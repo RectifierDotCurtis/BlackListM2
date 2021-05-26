@@ -8,6 +8,7 @@ import SignUp from './screens/SignUp';
 import SignIn from './screens/SignIn';
 import LoadingScreen from './screens/LoadingScreen';
 import Dashboard from './screens/Dashboard';
+import GuestBook from './screens/GuestBook';
 
 const Stack = createStackNavigator();
 
@@ -25,6 +26,7 @@ export default function App() {
       <Stack.Screen name='Sign Up' component={SignUp} options={{ headerShown: false }}/>
       <Stack.Screen name='Sign In' component={SignIn} options={{ headerShown: false }}/>
       <Stack.Screen name={'Dashboard'} component={Dashboard} options={{ headerShown: false }} />
+      <Stack.Screen name={'GuestBook'} component={GuestBook} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

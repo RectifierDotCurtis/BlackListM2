@@ -39,6 +39,9 @@ export default function Dashboard({ navigation }) {
     <View style={styles.container}>
       <Text style={styles.titleText}>Dashboard</Text>
       <Text style={styles.text}>Hi {firstName}</Text>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('GuestBook')} >
+        <Text style={styles.buttonText}>GuestBook</Text>
+       </TouchableOpacity>
       <TouchableOpacity style={styles.button} onPress={handlePress}>
         <Text style={styles.buttonText}>Log Out</Text>
       </TouchableOpacity>
